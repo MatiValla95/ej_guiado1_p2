@@ -5,7 +5,7 @@ public class AnalizadorProyecto {
         this.modulos = modulos;
     }
 
-    public  String listarModulos() {
+    public String listarModulos() {
         String resultado = "";
         for (int i = 0; i < modulos.length; i++) {
             if (modulos[i] != null) {
